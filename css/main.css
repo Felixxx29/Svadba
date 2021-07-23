@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    src: url("../fonts/YesevaOne-Regular.ttf");
+    font-family: yeseva;
+}
+
+@font-face {
+    src: url("../fonts/MullerRegular.ttf");
+    font-family: MullerRegular;
+}
+
+@font-face {
+    src: url("../fonts/MullerBold.ttf");
+    font-family: MullerBold;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    width: 488px;
+    margin-left: 239px;
+    align-items: center;
+}
+
+#menu a {
+    text-decoration: none;
+    font-family: MullerRegular, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #BD8D99;
+}
+
+#header_container {
+    max-width: 1200px;
+    padding: 14px 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#header {
+    background: #FDFDFD;
+    box-shadow: 0px 4px 20px rgba(189, 141, 153, 0.2);
+}
+
+#main {
+    margin: 0 auto;
+    padding: 80px 0;
+    max-width: 1200px;
+}
+
+h1 {
+    font-family: yeseva, sans-serif;
+    font-size: 38px;
+    line-height: 44px;
+    text-align: center;
+    margin: 0 auto 50px auto;
+    color: #4B0012;
+    width: 615px;
+}
+
+h2 {
+    margin-top: 120px;
+    margin-bottom: 45px;
+    font-family: yeseva, sans-serif;
+    font-size: 34px;
+    line-height: 39px;
+    color: #4B0012;
+}
+
+#footer {
+    background: #FCF4F4;
+}
+
+#footer_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 39px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#rules {
+    font-family: MullerRegular, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: rgba(189, 141, 153, 0.5);
+}
+
+#footer_image {
+    position: absolute;
+    left: 0;
+}
+
+#tabs {
+    max-width: 730px;
+    border-radius: 30px;
+}
+
+.ui-widget.ui-widget-content {
+    border: none;
+}
+
+.ui-widget-header {
+    background: none;
+    border: none;
+}
+
+h3 {
+    margin: 0;
+    background: #FCF2F2;
+}
+
+#tabs-1, #tabs-2, #tabs-3, #tabs-4 {
+    border-radius: 0px 0px 10px 10px;
+    background: #FCF2F2;
+    border: 1px solid #FCF2F2;
+    box-sizing: border-box;
+    font-family: MullerRegular, sans-serif;
+    font-size: 16px;
+    color: #4B0012;
+}
+
+#tabs #tabs-1 ul li, #tabs #tabs-2 ul li, #tabs #tabs-3 ul li, #tabs #tabs-4 ul li {
+    font-size: 16px;
+    line-height: 16px;
+    color: #1E0108;
+    margin-bottom: 12px;
+}
+
+h3 {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid #FCF2F2;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0px 0px;
+    background: #FFFFFF;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    font-family: MullerRegular, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #4B0012;
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button {
+    font-family: MullerRegular, sans-serif;
+    font-size: 16px;
+    color: #B08989;
+    width: 175px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.ui-tabs .ui-tabs-panel {
+    padding-left: 28px;
+    padding-bottom: 30px;
+    padding-right: 49px;
+}
+
+.tabs_tab ul {
+    padding-left: 15px;
+}
+
+.tabs p {
+    font-family: MullerRegular, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4B0012;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor{
+    color: #4B0012;
+    background: #FCF2F2;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#tabs_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#accordion .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active  {
+    background: #FCF2F2;
+    border-radius: 10px;
+}
+
+.ui-icon {
+    width: 0;
+    height: 0;
+}
+
+#accordion h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 25px;
+    font-family: MullerBold, sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    color: #4B0012;
+    margin-top: 15px;
+    outline: none;
+}
+
+#accordion h3 span {
+    display: none;
+}
+
+#title_questions {
+    text-align: center;
+}
+
+.slick-slide img {
+    margin: 0 auto;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    padding: 22px 0;
+}
+
+.ui-tabs .ui-tabs-nav {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ui-tabs .ui-tabs-nav li,.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    padding: 0;
+    margin: 0;
+}
+
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
+    content: none;
+}
+
+div#accordion {
+    max-width: 928px;
+    margin: 0 auto;
+}
+
+.ui-accordion .ui-accordion-content {
+    border-color: #fcf2f2;
+    border-radius: 0 0 10px 10px;
+}
+
+#accordion .ui-accordion-header-active {
+    border-radius: 10px 10px 0 0;
+}
+
+#accordion div {
+    font-size: 16px;
+    line-height: 20px;
+    color: #1E0108;
+    margin-bottom: 12px;
+}
+
+#tabs-1 p, #tabs-2 p, #tabs-3 p, #tabs-4 p {
+    font-family: MullerBold,sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4B0012;
+}
+
+#main .slick-prev {
+    background-image: url("../images/Vector (2).png");
+    left: 0;
+}
+
+.slick-prev, .slick-next{
+    width: 24px;
+    height: 42px;
+}
+
+.slick-prev:before{
+    content: none;
+}
+
+#main .slick-next {
+    background-image: url("../images/Vector (3).png");
+    right: 0;
+}
+
+.slick-next:before{
+    content: none;
+}
+
+.slick-list.draggable {
+    width: 1110px;
+    margin: 0 auto;
+}
+
